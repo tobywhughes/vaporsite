@@ -4,17 +4,22 @@ body {
 	background-size: 100%;
 }
 
-#panel{
+.panel{
 	display: inline-block;
 	background-color: #f1fcef;
-	margin-left: 25px;
-	margin-top: 25px;
+	margin: 25px 25px 25px 25px;
 	width: 350px;
 	height: 500px;
 	border: 1px solid black;
+	opacity: .9;
 }
 
-#panel-header {
+#panel2 {
+	position: relative;
+	float: right;
+}
+
+.panel-header {
 	text-align: center;
 	font-family: 'Exo', sans-serif;
 	padding-top: 5px;
@@ -44,12 +49,16 @@ body {
 
 }
 
-#vapordudecollection{
-	display: inline;
-	margin-left: 100px;
+#vapor-dude {
+	position: fixed;
+	left: 44.7%;
+	top: 10px;
+	width: 100px;
+	margin-left: 50px;
 }
 
-.vapordude {
-	width:100px;
-	margin-left: 50px;
+#vwave-video {
+	position: fixed;
+	left: 672px;
+	top: 210px;
 }

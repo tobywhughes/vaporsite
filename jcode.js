@@ -1,5 +1,5 @@
 var rotation = function (){
-  $(".vapordude").rotate({
+  $("#vapor-dude").rotate({
     angle:0,
     animateTo:360,
     callback: rotation,
@@ -8,6 +8,14 @@ var rotation = function (){
     }
   });
 }
+
+$(function() {
+    $( "#panel" ).draggable();
+    $( "#panel2" ).draggable();
+    $( "#vapor-dude" ).draggable();
+    $( "#vwave-video" ).draggable();
+
+});
 
 $(document).ready(function(){
 	rotation();
