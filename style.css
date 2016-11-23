@@ -1,0 +1,55 @@
+body {
+	background-image: url("vapenation.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+#panel{
+	display: inline-block;
+	background-color: #f1fcef;
+	margin-left: 25px;
+	margin-top: 25px;
+	width: 350px;
+	height: 500px;
+	border: 1px solid black;
+}
+
+#panel-header {
+	text-align: center;
+	font-family: 'Exo', sans-serif;
+	padding-top: 5px;
+	margin-top: 0px;
+	background-color: #ffffff;
+	border-bottom: solid 2px;
+}
+
+.panel-text {
+	font-family: 'Orbitron', sans-serif;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+#panel > ul {
+	padding-left: 70px;
+	padding-right: 70px;
+	color: red;
+	font-size: 20px;
+	font-family: 'VT323', monospace;
+}
+
+#panel > ul > li > a{
+	color: red;
+	font-size: 20px;
+	font-family: 'VT323', monospace;
+
+}
+
+#vapordudecollection{
+	display: inline;
+	margin-left: 100px;
+}
+
+.vapordude {
+	width:100px;
+	margin-left: 50px;
+}
