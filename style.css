@@ -8,8 +8,8 @@ body {
 	display: inline-block;
 	background-color: #f1fcef;
 	margin: 25px 25px 25px 25px;
-	width: 350px;
-	height: 500px;
+	width: 25%;
+	height: 300px;
 	border: 1px solid black;
 	opacity: .9;
 }
@@ -17,6 +17,14 @@ body {
 #panel2 {
 	position: relative;
 	float: right;
+}
+
+#panel3 {
+	position: relative;
+	float: left;
+	margin: 80px 30% 25px 30%;
+	width: 40%;
+	height: 100px;
 }
 
 .panel-header {
@@ -42,23 +50,27 @@ body {
 	font-family: 'VT323', monospace;
 }
 
-#panel > ul > li > a{
+a{
 	color: red;
 	font-size: 20px;
 	font-family: 'VT323', monospace;
 
 }
 
+#p3links{
+	text-align: center;
+	width: 100%;
+}
+
 #vapor-dude {
 	position: fixed;
-	left: 44.7%;
+	left: 47%;
 	top: 10px;
-	width: 100px;
-	margin-left: 50px;
+	width: 6%;
 }
 
 #vwave-video {
 	position: fixed;
-	left: 672px;
+	left: 37%;
 	top: 210px;
 }
